@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Anders</string>
+    <string name="msg">Registered, you can now close this app.</string>
+    <string name="connecting">Connecting…</string>
+    <string name="mac">44:A6:E5:36:7C:65</string>
+    <string name="snooze">Snooze</string>
+    <string name="dec">-</string>
+    <string name="inc">+</string>
+    <string name="unsnooze">Set alert</string>
+</resources>
