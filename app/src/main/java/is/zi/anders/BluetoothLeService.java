@@ -168,7 +168,7 @@ public class BluetoothLeService extends Service {
                             a = (data[0] ^ data[2] ^ data[8]) * 10 + (data[0] ^ data[2] ^ data[9]);
                             b = (data[0] ^ data[2] ^ data[15]) * 10 + (data[0] ^ data[2] ^ data[16]);
 
-                            if (a < target) {
+                            if (new Date().getTime() <= snooze || a < target) {
                                 update(notification);
                             } else {
                                 update(alarm);
